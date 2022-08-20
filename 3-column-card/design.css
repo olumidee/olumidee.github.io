@@ -1,0 +1,119 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+section{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.all-column {
+    display: flex;
+    width: 900px;
+}
+
+.first-column{
+    background: hsl(31, 77%, 52%);
+    padding-left: 40px;
+    padding-right:  40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    
+}
+.second-column{
+    background: hsl(184, 100%, 22%);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    
+}
+.third-column{
+    background: hsl(179, 100%, 13%);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+p{
+    color: white;
+}
+
+.big-text{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.small-text{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    padding-bottom: 40px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.first-column button{
+    color: hsl(31, 77%, 52%);
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1.5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.second-column button{
+    color: hsl(184, 100%, 22%);
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1.5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.third-column button{
+    color: hsl(179, 100%, 13%);
+    background-color:white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1.5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.first-column button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+
+.second-column button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+
+.third-column button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .all-column{
+        display: grid;
+        width: 100%;
+        justify-content: space-around;
+    }
+    section{
+        width: 100%;
+    }
+}
