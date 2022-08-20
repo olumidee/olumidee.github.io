@@ -1,0 +1,39 @@
+body{
+    background: rgb(181, 207, 233);
+    font-family: 'Outfit', sans-serif;
+    display: grid;
+    justify-content: space-around;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+.whole-page{
+        width: 300px;
+        background: white;
+        border-radius: 12px;
+        margin-top: 20%;
+        margin-bottom: 40%;
+    }
+
+img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.inside{
+    padding: 20px;
+}
+
+.big{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.small{
+    font-weight: 400;
+    text-align: center;
+    color: rgb(145, 145, 145);
+}
