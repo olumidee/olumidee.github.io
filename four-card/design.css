@@ -1,0 +1,131 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+section{
+    display: grid;
+    justify-content: center;
+}
+p{
+    margin: 0;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+}
+
+.intro{
+    padding-bottom: 10px;
+    display: grid;
+    justify-content: center;
+}
+.intro p{
+    text-align: center;
+}
+
+.first{
+    font-weight: 200;
+    font-size: 25px;
+    color: hsl(229, 6%, 66%);
+    padding-bottom: 10px;
+}
+.second{
+    font-weight: 600;
+    font-size: 25px;
+    color: hsl(234, 12%, 34%);
+    padding-bottom: 10px;
+}
+
+.third{
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+    width: 450px;
+}
+
+
+.all-cards{
+    display: flex;
+    align-items: center;
+}
+
+.left-card,
+.right-card,
+.middle-card-top,
+.middle-card-bottom {
+    box-shadow: 2px 2px 8px rgb(230, 230, 230);
+    margin: 20px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.all-cards svg{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+
+.colored-line{
+    height: 4px;
+    background-color: hsl(229, 27%, 61%);
+    width: 370px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.left-card{
+    height: 180px;
+    width: 330px;
+    padding: 20px;
+    border-radius: 5px;
+    border-top: hsl(180, 62%, 55%) solid 5px;
+
+}
+.middle-card-top,
+.middle-card-bottom{
+    height: 180px;
+    width: 330px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.right-card{
+    height: 180px;
+    width: 330px;
+    padding: 20px;
+    border-radius: 5px;
+    border-top: hsl(212, 86%, 64%) solid 5px;
+
+}
+.middle-card-top{
+    border-top: hsl(0, 78%, 62%) solid 5px;
+}
+.middle-card-bottom{
+    border-top: hsl(34, 97%, 64%) solid 5px;
+}
+
+
+.all-cards .middle-cards {
+    box-shadow:none;
+    padding: 0;
+}
+
+.p1{
+    font-weight: 600;
+    font-size: 20px;
+    color: hsl(234, 12%, 34%);
+    padding-bottom: 10px;
+}
+
+.p2{
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+}
+
+@media  (max-width: 550px) {
+  .all-cards{
+      display: grid;
+      justify-content: space-around;
+  }
+}
