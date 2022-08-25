@@ -128,4 +128,8 @@ body{
       display: grid;
       justify-content: space-around;
   }
+
+  .third{
+    width: 400px;
+}
 }
